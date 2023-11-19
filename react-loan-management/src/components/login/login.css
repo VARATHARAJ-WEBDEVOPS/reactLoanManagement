@@ -1,0 +1,34 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1 {
+    font-size: 3vh;
+}
+
+.login button {
+    padding: 2vh;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 32vh;
+    margin-top: 2vh;
+}
+
+.login input {
+    margin-top: 2vh;
+    width: 28.5vh;
+    padding: 1.5vh;
+    font-weight: bold;
+    font-size: 1.7vh;
+}
+
+.login p {
+    font-size: 1.7vh;
+    color: red;
+}
