@@ -17,8 +17,8 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const handleEmailChange = (event) => {
-        setEmail(event.target.value);
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
     };
 
     const handlePasswordChange = (event) => {
@@ -42,7 +42,7 @@ const Login = () => {
             navigate('/dashboard');
             return
         } else {
-            setError('Invalid user!')
+            setError('Invalid user!');
         }
     };
 

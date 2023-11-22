@@ -1,0 +1,40 @@
+.read {
+    width: 100%;
+    height: 100vh;
+}
+
+.readContainer {
+    height: 94vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.readContainer thead tr th{
+    background-color: #6200EA;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.readContainer tr td {
+    text-align: center;
+    font-size: 2vh;
+    padding-inline: 6vh;
+}
+.tableContainer {
+    max-width: 90%;
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+  }
+  
+  tbody {
+    background-color: #6200ea23;
+  }

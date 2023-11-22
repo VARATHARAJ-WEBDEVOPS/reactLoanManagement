@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    height: 6.5vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none !important;
+}
+
+.navbar .navNames {
+    display: flex;
+}
+
+.navbar p {
+    color: #fff;
+    font-size: 2vh;
+    margin-right: 2.5vh;
+}
+
+.navbar button {
+    padding: 1vh;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    width: 8vh;
+    font-size: 1.5vh;
+}

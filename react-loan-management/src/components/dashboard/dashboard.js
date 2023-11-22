@@ -1,26 +1,25 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './dashboard.css';
+import Navbar from '../navbar/navbar';
 
 const Dashboard = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
         const token = localStorage.getItem('token');
-        if (!token) {           
+        if (!token) {
             navigate('/');
         }
     });
 
-    const handleLogOut = () => {
-        localStorage.removeItem('token');
-        navigate('/');
-    }
-
     return (
+
         <div className="dashboard">
-            <h1>Dashboard</h1>
-            <button onClick={handleLogOut}>LogOut</button>
+            <Navbar />
+            <div className="dashboardContainer">
+                <h1>Dashboard</h1>
+            </div>
         </div>
     );
 }

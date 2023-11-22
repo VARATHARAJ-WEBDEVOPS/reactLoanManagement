@@ -1,0 +1,57 @@
+.create {
+    width: 100%;
+    height: 100vh;
+}
+
+.createContainer {
+    width: 100%;
+    height: 94.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create .createContainer input {
+    margin-top: 2vh;
+    width: 28.5vh;
+    padding: 1.5vh;
+    font-weight: bold;
+    font-size: 1.7vh;
+    border: none;
+    border-bottom: 0.1vh solid #000;
+}
+
+.create .createContainer .buttonContainer {
+    display: flex
+}
+
+.create .createContainer .buttonContainer button{
+    padding: 2vh;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 10vh;
+    margin-top: 3vh;
+    margin-inline: 3vh;
+}
+
+.datePicker {
+    margin-top: 2vh;
+    width: 28.5vh;
+    padding: 1.5vh;
+    font-weight: bold;
+    font-size: 1.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border-bottom: #000;
+    cursor: pointer;
+}
+
+.datePicker i {
+    font-size: 2.4vh;
+    margin-left: 1vh;
+}
